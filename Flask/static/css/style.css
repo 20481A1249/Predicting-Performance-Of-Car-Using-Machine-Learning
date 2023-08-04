@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Oswald:wght@300;400&family=Poppins:wght@300;400;700&family=Roboto:wght@300;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Oswald',sans-serif;
+}
+
+.container{
+    margin-inline: 3%;
+    width: 94%;
+    /* border: 2px solid black; */
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* nav section */
+
+nav{
+    background-color: black;
+}
+
+.nav-links{
+    justify-content: center;
+    gap: 20%;
+    height: 3.5rem;
+    font-weight: 500;
+    font-size: larger;
+}
+
+.hover-link{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    height: 2.3rem;
+    width: 5rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    padding-block: 2px;
+}
+.hover-link:hover{
+    background-color: rgb(208, 16, 16);
+    transition: all .2s linear;
+}
+
+/* header section */
+
+h1{
+    font-family: 'Oswald',sans-serif;
+    font-weight: bolder;
+    word-spacing: 10px;
+    font-size:3.9rem;
+    text-align: center;
+    /* text-transform: uppercase; */
+}
+
+.main-img img{
+    width: 100%;
+    /* border: 2px solid black; */
+    height: 10%;
+}
+
+/* Prediction section */
+
+
+form {
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="number"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+select{
+  width: 100%;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 0.5rem;
+}
+
+input[type="submit"]:hover{
+    background-color: #07930b;
+    transition: all .1s linear;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.output{
+    height: 100px;
+}
